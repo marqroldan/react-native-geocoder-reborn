@@ -45,9 +45,9 @@ class GeocoderModule(reactContext: ReactApplicationContext) : ReactContextBaseJa
     try {
       val addresses: MutableList<Address>
       if (swLat != null && swLng != null && neLat != null && neLng != null) {
-        addresses = geocoder.getFromLocationName(addressName, maxResults, swLat, swLng, neLat, neLng)
+        addresses = geocoder.getFromLocationName(addressName, maxResults, swLat, swLng, neLat, neLng) as MutableList<Address>
       } else {
-        addresses = geocoder.getFromLocationName(addressName, maxResults)
+        addresses = geocoder.getFromLocationName(addressName, maxResults) as MutableList<Address>
       }
       if (addresses != null && addresses.size > 0) {
         promise.resolve(transform(addresses))
