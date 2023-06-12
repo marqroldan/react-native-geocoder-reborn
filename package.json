@@ -1,6 +1,6 @@
 {
   "name": "@marqroldan/react-native-geocoder",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Multi-platform geocoder library for React Native apps.",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
