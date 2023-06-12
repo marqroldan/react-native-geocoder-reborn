@@ -29,6 +29,7 @@
     "android"
   ],
   "repository": "https://github.com/marqroldan/react-native-geocoder-reborn",
+  "author": "Marq Roldan <hcmlroldan@gmail.com> (https://github.com/marqroldan)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marqroldan/react-native-geocoder-reborn/issues"
