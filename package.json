@@ -28,13 +28,24 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/timwangdev/react-native-geocoder-reborn",
-  "author": "Yao Wang <tim.wangyao@gmail.com> (https://github.com/timwangdev)",
+  "repository": "https://github.com/marqroldan/react-native-geocoder-reborn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timwangdev/react-native-geocoder-reborn/issues"
+    "url": "https://github.com/marqroldan/react-native-geocoder-reborn/issues"
   },
-  "homepage": "https://github.com/timwangdev/react-native-geocoder-reborn#readme",
+  "contributors": [
+    {
+      "name": "Marq Roldan",
+      "email": "hcmlroldan@gmail.com",
+      "url": "https://github.com/marqroldan"
+    },
+    {
+      "name": "Yao Wang",
+      "email": "tim.wangyao@gmail.com",
+      "url": "https://github.com/timwangdev"
+    }
+  ],
+  "homepage": "https://github.com/marqroldan/react-native-geocoder-reborn#readme",
   "dependencies": {},
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
@@ -112,7 +123,7 @@
       "skipChecks": true
     },
     "github": {
-      "release": true
+      "release": false
     },
     "plugins": {
       "@release-it/conventional-changelog": {
